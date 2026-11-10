@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# ---- credentials / secrets (never commit) ----
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+*_secret*
+*_credential*
+secrets/
+credentials/

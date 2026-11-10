@@ -1,0 +1,57 @@
+{
+  "resultType": "complete",
+  "skills": [
+    {
+      "uri": "skill://totally-different/SKILL.md",
+      "frontmatter": {
+        "name": "totally-different",
+        "description": "Demonstrates a name that does not match its directory. Use when testing name validation.",
+        "license": "MIT"
+      },
+      "resources": [
+        {
+          "uri": "skill://totally-different/SKILL.md",
+          "digest": "sha256:0fe327bdbef5560b84b8f3ff92b3108632f6f9d117a405fd0dbbcaeb585c254a",
+          "size": 211
+        }
+      ]
+    },
+    {
+      "uri": "skill://no-frontmatter/SKILL.md",
+      "frontmatter": {},
+      "resources": [
+        {
+          "uri": "skill://no-frontmatter/SKILL.md",
+          "digest": "sha256:8ff6bd2c092e9f0b602dd14f3d9be0e5ba0d66ba5d8d06ffe5da51ebe6933c65",
+          "size": 87
+        }
+      ]
+    },
+    {
+      "uri": "skill://valid-skill/SKILL.md",
+      "frontmatter": {
+        "name": "valid-skill",
+        "description": "A tiny demonstration skill that validates a checklist before shipping. Use when reviewing a change set or when someone asks for a pre-release check.",
+        "license": "MIT",
+        "metadata": {
+          "author": "example",
+          "version": "1.0"
+        }
+      },
+      "resources": [
+        {
+          "uri": "skill://valid-skill/references/checklist.md",
+          "digest": "sha256:3cf4077e1668c78a690f5be35bbe8a3bf3442e50d1e0491aff2e2a66230401d4",
+          "size": 51
+        },
+        {
+          "uri": "skill://valid-skill/SKILL.md",
+          "digest": "sha256:4e37996c093ce1cb0fa1dbd86ad430f6082fe6d948e01ba2e076d0e7dffbe8d0",
+          "size": 385
+        }
+      ]
+    }
+  ],
+  "ttlMs": 300000,
+  "cacheScope": "public"
+}

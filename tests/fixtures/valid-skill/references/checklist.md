@@ -1,0 +1,5 @@
+# Checklist
+
+- Correctness
+- Tests
+- Compatibility
